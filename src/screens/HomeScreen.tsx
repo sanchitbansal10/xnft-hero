@@ -11,6 +11,7 @@ import { View, Text, Button, TextInput } from "react-native";
 import CoinPrice from "../components/CoinPrice";
 import PlacePosition from "../components/PlacePosition";
 import NumberInput from "../components/AmountInput";
+import {SportOdds} from "../components/SportOdds";
 
 
 //This defines an interface for an object that will contain information about a 
@@ -119,6 +120,9 @@ export function HomeScreen() {
  // This sets up state for a live countdown timer
   const [countDownTime, setCountDownTime] = useState<string>("");
 
+  return (
+    <SportOdds pariObj={pariObj} parimutuelWeb3={parimutuelWeb3} />
+  )
 
   return (
 

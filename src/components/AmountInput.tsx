@@ -38,7 +38,6 @@ const AmmountInput = ({ onChange }: AmmountInputProps) => {
         style={{
           borderColor: 'white',
           borderWidth: 1,
-          color: 'white',
           fontSize: 20,
           borderRadius: "5px"
         }}
